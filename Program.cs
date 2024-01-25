@@ -1,6 +1,17 @@
 ﻿using exemploexplorando.Models;
 using System.Globalization;
 using System.Security.Cryptography;
+using CSharpStudies.Models;
+using Newtonsoft.Json;
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach(string venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}");
+}
 
 
 
@@ -22,8 +33,21 @@ using System.Security.Cryptography;
 
 
 
+// DateTime dataAtual = DateTime.Now;
 
+// List<Venda> listaVendas = [];
 
+// Venda v1 = new(1, "Material de escritorio", 25.00M, dataAtual);
+// Venda v2 = new(2, "Licença de software", 110.00M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+// File.WriteAllText("Arquivos/vendas.json", serializado);
+
+// Console.WriteLine(serializado);
 
 // try
 // {

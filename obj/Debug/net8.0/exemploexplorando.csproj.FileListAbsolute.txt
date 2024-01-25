@@ -1,14 +1,32 @@
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\bin\Debug\net8.0\exemploexplorando.exe
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\bin\Debug\net8.0\exemploexplorando.deps.json
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\bin\Debug\net8.0\exemploexplorando.runtimeconfig.json
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\bin\Debug\net8.0\exemploexplorando.dll
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\bin\Debug\net8.0\exemploexplorando.pdb
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\exemploexplorando.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\exemploexplorando.AssemblyInfoInputs.cache
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\exemploexplorando.AssemblyInfo.cs
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\exemploexplorando.csproj.CoreCompileInputs.cache
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\exemploexplorando.dll
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\refint\exemploexplorando.dll
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\exemploexplorando.pdb
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\exemploexplorando.genruntimeconfig.cache
-C:\Users\Cliente 5485\Desktop\c#\exemploexplorando\obj\Debug\net8.0\ref\exemploexplorando.dll
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/bin/Debug/net8.0/exemploexplorando.exe
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/bin/Debug/net8.0/exemploexplorando.deps.json
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/bin/Debug/net8.0/exemploexplorando.runtimeconfig.json
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/bin/Debug/net8.0/exemploexplorando.dll
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/bin/Debug/net8.0/exemploexplorando.pdb
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/exemploexplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/exemploexplorando.AssemblyInfoInputs.cache
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/exemploexplorando.AssemblyInfo.cs
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/exemploexplorando.csproj.CoreCompileInputs.cache
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/exemploexplorando.dll
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/refint/exemploexplorando.dll
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/exemploexplorando.pdb
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/exemploexplorando.genruntimeconfig.cache
+C:/Users/Cliente 5485/Desktop/c#/exemploexplorando/obj/Debug/net8.0/ref/exemploexplorando.dll
+/workspaces/CSharpStudies/bin/Debug/net8.0/exemploexplorando
+/workspaces/CSharpStudies/bin/Debug/net8.0/exemploexplorando.deps.json
+/workspaces/CSharpStudies/bin/Debug/net8.0/exemploexplorando.runtimeconfig.json
+/workspaces/CSharpStudies/bin/Debug/net8.0/exemploexplorando.dll
+/workspaces/CSharpStudies/bin/Debug/net8.0/exemploexplorando.pdb
+/workspaces/CSharpStudies/bin/Debug/net8.0/Newtonsoft.Json.dll
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.csproj.AssemblyReference.cache
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.AssemblyInfoInputs.cache
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.AssemblyInfo.cs
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.csproj.CoreCompileInputs.cache
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.sourcelink.json
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.csproj.CopyComplete
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.dll
+/workspaces/CSharpStudies/obj/Debug/net8.0/refint/exemploexplorando.dll
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.pdb
+/workspaces/CSharpStudies/obj/Debug/net8.0/exemploexplorando.genruntimeconfig.cache
+/workspaces/CSharpStudies/obj/Debug/net8.0/ref/exemploexplorando.dll
