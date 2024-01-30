@@ -3,21 +3,19 @@ using System.Globalization;
 using System.Security.Cryptography;
 using CSharpStudies.Models;
 using Newtonsoft.Json;
+using csharpstudies;
+using csharpstudies.Models;
 
-bool? desejaReceberEmail = true;
+int numero = 15;
 
-if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
-{
-    Console.WriteLine("email");
-}
-else
-{
-    Console.WriteLine("sem email");
-};
+bool par = false;
 
+par = numero.EhPar();
+
+string mensagem = " O numero " + numero +  " " + " é " + (par ? "par": "impar");
 
 
-
+Console.WriteLine(numero);
 
 
 
@@ -28,6 +26,40 @@ else
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+// arrayInteiro.AdicionarElementoArray(30);
+
+// Console.WriteLine(arrayInteiro[0]);
+
+// MeuArray<string> arrayString = new MeuArray<string>();
+
+// arrayString.AdicionarElementoArray("teste");
+
+// Console.WriteLine(arrayString[0]);
+
+// bool? desejaReceberEmail = true;
+
+// if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+// {
+//     Console.WriteLine("email");
+// }
+// else
+// {
+//     Console.WriteLine("sem email");
+// };
 
 // string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
