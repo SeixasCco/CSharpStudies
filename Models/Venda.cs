@@ -2,22 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace CSharpStudies.Models
 {
-    public class Venda
+    public class Venda(int id, string produto, decimal preco, DateTime datavenda)
     {
-        public Venda(int id , string produto, decimal preco, DateTime datavenda)
-        {
-            Id = id;
-            Produto = produto;
-            Preco = preco;
-            DataVenda = datavenda;
+        public int Id { get; set; } = id;
 
-        }
-        public int Id { get; set; }
-        public string Produto { get; set; }
-        public decimal Preco { get; set; }
-        public DateTime DataVenda { get; set; }
+        [JsonProperty("nome_produto")]
+        public string Produto { get; set; } = produto;
+        public decimal Preco { get; set; } = preco;
+        public DateTime DataVenda { get; set; } = datavenda;
     }
 }

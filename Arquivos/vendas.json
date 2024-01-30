@@ -1,13 +1,13 @@
 [
   {
     "Id": 1,
-    "Produto": "Material de escritorio",
+    "Nome_Produto": "Material de escritorio",
     "Preco": 25.00,
     "DataVenda": "2024-01-25T16:08:11.9925452+00:00"
   },
   {
     "Id": 2,
-    "Produto": "Licença de software",
+    "Nome_Produto": "Licença de software",
     "Preco": 110.00,
     "DataVenda": "2024-01-25T16:08:11.9925452+00:00"
   }

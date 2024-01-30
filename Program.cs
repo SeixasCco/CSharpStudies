@@ -8,9 +8,11 @@ string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
 List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-foreach(string venda in listaVenda)
+foreach(Venda venda in listaVenda)
 {
     Console.WriteLine($"Id: {venda.Id}");
+    Console.WriteLine($"Id: {venda.DataVenda}");
+    Console.WriteLine($"Id: {venda.Produto}");
 }
 
 
