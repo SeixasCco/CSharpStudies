@@ -6,13 +6,19 @@ using Newtonsoft.Json;
 
 namespace CSharpStudies.Models
 {
-    public class Venda(int id, string produto, decimal preco, DateTime datavenda)
+    public class Venda
     {
-        public int Id { get; set; } = id;
+        public Venda(int id , string produto, decimal preco, DateTime datavenda)
+        {
+            Id = id;
+            Produto = produto;
+            Preco = preco;
+            DataVenda = datavenda;
 
-        [JsonProperty("nome_produto")]
-        public string Produto { get; set; } = produto;
-        public decimal Preco { get; set; } = preco;
-        public DateTime DataVenda { get; set; } = datavenda;
+        }
+        public int Id { get; set; }
+        public string Produto { get; set; }
+        public decimal Preco { get; set; }
+        public DateTime DataVenda { get; set; }
     }
 }

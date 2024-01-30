@@ -43,19 +43,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cliente 5485\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cliente 5485\\Desktop\\c#\\c#studies\\cSharpStudies\\exemploexplorando.csproj",
+      "projectUniqueName": "/workspaces/CSharpStudies/exemploexplorando.csproj",
       "projectName": "exemploexplorando",
-      "projectPath": "C:\\Users\\Cliente 5485\\Desktop\\c#\\c#studies\\cSharpStudies\\exemploexplorando.csproj",
-      "packagesPath": "C:\\Users\\Cliente 5485\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cliente 5485\\Desktop\\c#\\c#studies\\cSharpStudies\\obj\\",
+      "projectPath": "/workspaces/CSharpStudies/exemploexplorando.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/CSharpStudies/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cliente 5485\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -100,7 +100,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet/8.0.101/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
