@@ -4,16 +4,16 @@ using System.Security.Cryptography;
 using CSharpStudies.Models;
 using Newtonsoft.Json;
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+bool? desejaReceberEmail = true;
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
-
-foreach(Venda venda in listaVenda)
+if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
 {
-    Console.WriteLine($"Id: {venda.Id}");
-    Console.WriteLine($"Id: {venda.DataVenda}");
-    Console.WriteLine($"Id: {venda.Produto}");
+    Console.WriteLine("email");
 }
+else
+{
+    Console.WriteLine("sem email");
+};
 
 
 
@@ -34,6 +34,19 @@ foreach(Venda venda in listaVenda)
 
 
 
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// foreach(Venda venda in listaVenda)
+// {
+//     Console.WriteLine($"Id: {venda.Id}");
+//     Console.WriteLine($"Id: {venda.DataVenda}");
+//     Console.WriteLine($"Id: {venda.Produto}");
+// }
 
 // DateTime dataAtual = DateTime.Now;
 
