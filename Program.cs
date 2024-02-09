@@ -6,16 +6,14 @@ using Newtonsoft.Json;
 using csharpstudies;
 using csharpstudies.Models;
 
-int numero = 15;
-
-bool par = false;
-
-par = numero.EhPar();
-
-string mensagem = " O numero " + numero +  " " + " é " + (par ? "par": "impar");
 
 
-Console.WriteLine(numero);
+ContaCorrente c1 = new(123, 1000);
+
+
+c1.ExibirSaldo();
+c1.Sacar(400);
+c1.ExibirSaldo();
 
 
 
@@ -36,7 +34,25 @@ Console.WriteLine(numero);
 
 
 
+// int a = 10;
 
+// int b = a;
+
+// b = 60;
+
+// Console.WriteLine($"Valor de A : {a}");
+// Console.WriteLine($"Valor de A : {b}");
+
+// int numero = 15;
+
+// bool par = false;
+
+// par = numero.EhPar();
+
+// string mensagem = " O numero " + numero +  " " + " é " + (par ? "par": "impar");
+
+
+// Console.WriteLine(numero);
 
 // MeuArray<int> arrayInteiro = new MeuArray<int>();
 
