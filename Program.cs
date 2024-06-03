@@ -5,17 +5,15 @@ using CSharpStudies.Models;
 using Newtonsoft.Json;
 using csharpstudies;
 using csharpstudies.Models;
-using cSharpstudies.Models;
-
-Aluno a1 = new()
-{
-    Nome = "Leonardo",
-    Idade = 20
-};
-
-a1.Apresentar();
 
 
+
+ContaCorrente c1 = new(123, 1000);
+
+
+c1.ExibirSaldo();
+c1.Sacar(400);
+c1.ExibirSaldo();
 
 
 
@@ -29,6 +27,21 @@ a1.Apresentar();
 
 
 
+
+
+
+
+
+
+
+// int a = 10;
+
+// int b = a;
+
+// b = 60;
+
+// Console.WriteLine($"Valor de A : {a}");
+// Console.WriteLine($"Valor de A : {b}");
 
 // int numero = 15;
 
@@ -40,7 +53,6 @@ a1.Apresentar();
 
 
 // Console.WriteLine(numero);
-
 
 // MeuArray<int> arrayInteiro = new MeuArray<int>();
 
