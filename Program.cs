@@ -5,29 +5,13 @@ using CSharpStudies.Models;
 using Newtonsoft.Json;
 using csharpstudies;
 using csharpstudies.Models;
+using cSharpstudies.Models;
 
 
+Corrent c = new();
+c.Creditar(500);
 
-ContaCorrente c1 = new(123, 1000);
-
-
-c1.ExibirSaldo();
-c1.Sacar(400);
-c1.ExibirSaldo();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+c.ExibirSaldo();
 
 
 
