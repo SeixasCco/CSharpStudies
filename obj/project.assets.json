@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cliente 5485\\desktop\\c#\\c#studies\\CSharpStudies\\exemploexplorando.csproj",
+      "projectUniqueName": "C:\\Users\\Cliente 5485\\Desktop\\c#\\c#studies\\cSharpstudies\\exemploexplorando.csproj",
       "projectName": "exemploexplorando",
-      "projectPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\c#studies\\CSharpStudies\\exemploexplorando.csproj",
+      "projectPath": "C:\\Users\\Cliente 5485\\Desktop\\c#\\c#studies\\cSharpstudies\\exemploexplorando.csproj",
       "packagesPath": "C:\\Users\\Cliente 5485\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\c#studies\\CSharpStudies\\obj\\",
+      "outputPath": "C:\\Users\\Cliente 5485\\Desktop\\c#\\c#studies\\cSharpstudies\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Cliente 5485\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -100,7 +100,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

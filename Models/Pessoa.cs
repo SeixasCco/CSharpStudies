@@ -58,7 +58,7 @@ namespace exemploexplorando.Models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {NomeCompleto} Idade : {Idade}");
+            Console.WriteLine($"Olá meu Nome é {NomeCompleto}e tenho {Idade} anos!");
         }
     }
 }

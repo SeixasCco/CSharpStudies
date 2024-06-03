@@ -5,17 +5,15 @@ using CSharpStudies.Models;
 using Newtonsoft.Json;
 using csharpstudies;
 using csharpstudies.Models;
+using cSharpstudies.Models;
 
-int numero = 15;
+Aluno a1 = new()
+{
+    Nome = "Leonardo",
+    Idade = 20
+};
 
-bool par = false;
-
-par = numero.EhPar();
-
-string mensagem = " O numero " + numero +  " " + " é " + (par ? "par": "impar");
-
-
-Console.WriteLine(numero);
+a1.Apresentar();
 
 
 
@@ -32,10 +30,16 @@ Console.WriteLine(numero);
 
 
 
+// int numero = 15;
+
+// bool par = false;
+
+// par = numero.EhPar();
+
+// string mensagem = " O numero " + numero +  " " + " é " + (par ? "par": "impar");
 
 
-
-
+// Console.WriteLine(numero);
 
 
 // MeuArray<int> arrayInteiro = new MeuArray<int>();
