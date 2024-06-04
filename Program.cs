@@ -6,17 +6,25 @@ using Newtonsoft.Json;
 using csharpstudies;
 using csharpstudies.Models;
 using cSharpstudies.Models;
+using cSharpstudies.Interfaces;
 
+ICalculadora calc = new Calculadora();
 
-Corrent c = new();
-c.Creditar(500);
-
-c.ExibirSaldo();
-
-
+Console.WriteLine(calc.Multiplicar(3,9));
 
 
 
+
+
+
+// Computador c = new();
+
+// Console.WriteLine(c.ToString());
+
+// Corrent c = new();
+// c.Creditar(500);
+
+// c.ExibirSaldo();
 
 // int a = 10;
 
